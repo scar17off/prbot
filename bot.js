@@ -52,9 +52,6 @@ function createBot() {
 			bot.chat(`/corpm ${bossName} [call]`);
 		}, 3000);
 	});
-	bot.on("respawn", () => {
-		bot.chat(`/corpm ${bossName} [call]`);
-	});
 	bot.on("message", msg => {
 		let msget = msg.toString();
 		let args = msget.split(" ");
