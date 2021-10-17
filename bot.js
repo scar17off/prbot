@@ -61,6 +61,7 @@ function createBot() {
 		console.log(msget);
 		if(args[3] == `quit`){
 			bot.quit();
+      return false;
 		};
 	});
 	//Do this every time the bot moves
