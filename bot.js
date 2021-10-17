@@ -56,7 +56,10 @@ function createBot() {
 
 	});
 	bot.on("chat", msg => {
-		console.log(msg.text);
+		let msget = msg.toString();
+		if(msget.includes(`${bossName} ➠ quit`)){
+			bot.quit();
+		};
 	});
 	//Do this every time the bot moves
 	bot.on('move', ()=>{
