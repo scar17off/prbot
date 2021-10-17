@@ -55,7 +55,7 @@ function createBot() {
 	bot.on("respawn", () => {
 
 	});
-	bot.on("chat", msg => {
+	bot.on("message", msg => {
 		let msget = msg.toString();
 		let args = msget.split(" ");
 		console.log(msget);
