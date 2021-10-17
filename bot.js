@@ -20,7 +20,7 @@ const server = {
 	version: "1.8",
 };
 
-const botCount = 5;
+const botCount = 6;
 const personalSpace = 4;
 
 var offset = 0;
