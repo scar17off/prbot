@@ -6,9 +6,13 @@
   "dependencies": {
     "mineflayer": "^3.11.2"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "no"
+    "start": "node bot.js",
+    "test": "node bot.js"
   },
   "repository": {
     "type": "git",
