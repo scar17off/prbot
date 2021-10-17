@@ -57,7 +57,9 @@ function createBot() {
 	});
 	bot.on("chat", msg => {
 		let msget = msg.toString();
-		if(msget.includes(`quit`)){
+		let args = msget.split(" ");
+		console.log(msget);
+		if(args[3] == `quit`){
 			bot.quit();
 		};
 	});
