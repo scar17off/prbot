@@ -1,0 +1,22 @@
+{
+  "name": "prbot",
+  "version": "1.0.0",
+  "description": "no",
+  "main": "bot.js",
+  "dependencies": {
+    "mineflayer": "^3.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "no"
+  },
+  "keywords": [
+    "no"
+  ],
+  "author": "scar",
+  "license": "MIT"
+}
