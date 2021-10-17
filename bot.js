@@ -48,7 +48,7 @@ function createBot() {
 		bot.chat("/reg kwhjrkqrjwk kwhjrkqrjwk");
 		bot.chat("/l kwhjrkqrjwk");
 		setTimeout(() => {
-			bot.chat(`/skin Woodsy`);
+			bot.chat(`/skin MilitarySoldier`);
 			bot.chat(`/corpm ${bossName} [call]`);
 		}, 3000);
 	});
