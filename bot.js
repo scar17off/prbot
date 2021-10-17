@@ -60,7 +60,7 @@ function createBot() {
 		let args = msget.split(" ");
 		console.log(msget);
 		if(args[3] == `quit`){
-        if(args[2].includes(bossName)){
+        if(args[2].toString().includes(bossName)){
 		  	bot.quit();
         return false;
 		  };
