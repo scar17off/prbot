@@ -7,7 +7,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min)) + min;
 };
 var bots = [];
-let isGlitch = false;
+let isGlitch = true;
 if(isGlitch = true){
 	var prefix = `${getRandomInt(1,127)}${nick}`;
 } else {
